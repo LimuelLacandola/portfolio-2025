@@ -19,7 +19,7 @@
     <!-- Hero Section -->
     <header class="flex flex-col items-center justify-center h-screen bg-white shadow-md px-6 text-center">
         <!-- Profile Image -->
-        <img src="https://via.placeholder.com/150" alt="Profile Image"
+        <img src="assets/profile.jpg" alt="Profile Image"
             class="w-40 h-40 rounded-full shadow-md border-4 border-blue-600">
         
         <h1 class="mt-6 text-4xl font-bold text-blue-600">Hello, I'm Limuel Lacandola!</h1>
