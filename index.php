@@ -66,6 +66,44 @@
         </div>
     </section>
 
+        <!-- Education Section -->
+        <section id="education" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800">Education</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
+                <!-- Education Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md ">
+                    <h3 class="text-xl font-medium text-blue-600">EARIST Manila</h3>
+                    <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-medium text-blue-600">La Consolacion College Manila</h3>
+                    <p class="text-gray-600 mt-2">An Health companion and monitoring app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="py-20">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800">Experience</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
+                <!-- Experience Card -->
+                <div class="bg-white p-6 rounded-lg shadow-md ">
+                    <h3 class="text-xl font-medium text-blue-600">Fast Retailing Co., LTD - Uniqlo</h3>
+                    <h4 class="font-medium">Seasonal Store Associate</h4>
+                    <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-medium text-blue-600">PhilHealth Regional Office NCR - Central</h3>
+                    <h4 class="font-medium">Internship</h4>
+                    <p class="text-gray-600 mt-2">An Health companion and monitoring app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto text-center">
