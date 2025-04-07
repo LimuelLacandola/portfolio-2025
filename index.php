@@ -189,8 +189,20 @@
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lacandola.l.bsinfotech@gmail.com&su=Collaboration Inquiry&body=Hello, I’d love to discuss..."
                 target="_blank"
                 class="mt-4 inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-                Contact Me
+                Send Mail
             </a>
+            <!-- <div class="mt-6 flex justify-center space-x-6text-2xl text-gray-600">
+    <a href="https://web.facebook.com/lmyylx?_rdc=1&_rdr" target="_blank" class="hover:text-blue-600">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/lmyylx/" target="_blank" class="hover:text-pink-500">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="viber://chat?number=%2B09554654133" target="_blank" class="hover:text-purple-600">
+        <i class="fab fa-viber"></i>
+    </a>
+</div> -->
+
         </div>
     </section>
 
@@ -199,8 +211,8 @@
     <!-- Footer -->
     <footer class="py-4 bg-white text-center text-gray-600">
         <p><i class="fa-solid fa-code px-2"></i>Limuel Lacandola</p>
-       
-        </footer>
+
+    </footer>
 
 </body>
 
