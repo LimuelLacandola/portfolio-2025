@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Limuel Lacandola | Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/cebb112a12.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
+    <link href="src/output.css" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/cebb112a12.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="src/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="src/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="src/fontawesome/css/solid.css" />
+    <!-- <link rel="stylesheet" href="src/fontawesome/css/sharp-thin.css" />
+    <link rel="stylesheet" href="src/fontawesome/css/duotone-thin.css" />
+    <link rel="stylesheet" href="src/fontawesome/css/sharp-duotone-thin.css" /> -->
+
+    <link rel="stylesheet" href="src/main.css">
     <link rel="icon" href="assets/images/profile-icon.png">
 </head>
 
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 ml-20">
     <!-- Sidebar (Hidden on Mobile, Centered on Larger Screens) -->
     <div class="fixed top-0 left-0 w-20 h-screen bg-white text-gray-900 shadow-md hidden md:flex flex-col justify-center items-center">
         <ul class="space-y-6 list-none">
@@ -102,22 +109,32 @@
                 <!-- Project Card -->
                 <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/trip-ticket', '_blank');">
-                    <h3 class="text-xl font-medium text-blue-600">Philhealth Trip Ticketing System</h3>
+                    <img src="assets/images/trip-ticket-logo.png" alt="Trip Ticket Logo" class="mx-auto h-16 mb-4" />
+                    <h3 class="text-xl font-medium text-blue-600">Philhealth Trip Ticketing</h3>
                     <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
+                    <!-- <p class="mt-2">2024</p> -->
                 </div>
+
                 <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/HealthPro', '_blank');">
+                    <img src="assets/images/healthpro-logo.png" alt="HealthPro Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">Health Pro</h3>
-                    <p class="text-gray-600 mt-2">An Health companion and monitoring app.</p>
+                    <p class="text-gray-600 mt-2">An Health companion and monitoring mobile application.</p>
+                    <!-- <p class="mt-2">2023</p> -->
+
                 </div>
+
                 <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/San-and-Elisse-Bending-Shop-System', '_blank');">
-                    <h3 class="text-xl font-medium text-blue-600">San and Elisse Bending Shop System</h3>
+                    <img src="assets/images/saebs-logo.png" alt="Bending Shop Logo" class="mx-auto h-16 mb-4" />
+                    <h3 class="text-xl font-medium text-blue-600">San and Elisse Bending Shop</h3>
                     <p class="text-gray-600 mt-2">An integrated inventory management system for a bending shop.</p>
+                    <!-- <p class="mt-2">2024-2025</p> -->
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Education Section -->
     <section id="education" class="min-h-screen flex items-center justify-center px-6 bg-gray-50">
@@ -125,17 +142,22 @@
             <h2 class="text-3xl font-semibold text-gray-800">Education</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Education Card -->
-                <div class="bg-white p-6 rounded-lg shadow-md ">
-                    <h3 class="text-xl font-medium text-blue-600">EARIST Manila</h3>
-                    <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="assets/images/earist-logo.png" alt="EARIST Logo" class="mx-auto h-16 mb-4" />
+                    <h3 class="text-xl font-medium text-blue-600">Eulogio "Amang" Rodriguez Institute of Science and Technology Manila</h3>
+                    <h4 class="font-medium">Bachelor of Science in Information Technology.</h4>
+                    <p class="text-gray-600 mt-2">2020-2024</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="assets/images/lccm-logo.png" alt="La Consolacion College Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">La Consolacion College Manila</h3>
-                    <p class="text-gray-600 mt-2">An Health companion and monitoring app.</p>
+                    <h4 class="font-medium">Information, Communication and Technology - TECHVOC Strand</h4>
+                    <p class="text-gray-600 mt-2">2018-2020</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Experience Section -->
     <section id="experience" class="min-h-screen flex items-center justify-center px-6">
@@ -144,14 +166,16 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Experience Card -->
                 <div class="bg-white p-6 rounded-lg shadow-md ">
+                    <img src="assets/images/fast-retailing-logo.png" alt="Fast Retailing Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">Fast Retailing Co., LTD - Uniqlo</h3>
                     <h4 class="font-medium">Seasonal Store Associate</h4>
-                    <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
+                    <p class="text-gray-600 mt-2">2024</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="assets/images/philhealth-logo.png" alt="Philhealth Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">PhilHealth Regional Office NCR - Central</h3>
                     <h4 class="font-medium">Internship</h4>
-                    <p class="text-gray-600 mt-2">An Health companion and monitoring app.</p>
+                    <p class="text-gray-600 mt-2">2024</p>
                 </div>
             </div>
         </div>
@@ -174,8 +198,9 @@
 
     <!-- Footer -->
     <footer class="py-4 bg-white text-center text-gray-600">
-        <p>&copy; 2025 Limuel Lacandola.</p>
-    </footer>
+        <p><i class="fa-solid fa-code px-2"></i>Limuel Lacandola</p>
+       
+        </footer>
 
 </body>
 
