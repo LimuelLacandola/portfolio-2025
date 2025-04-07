@@ -142,18 +142,23 @@
             <h2 class="text-3xl font-semibold text-gray-800">Education</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Education Card -->
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <img src="assets/images/earist-logo.png" alt="EARIST Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">Eulogio "Amang" Rodriguez Institute of Science and Technology Manila</h3>
-                    <h4 class="font-medium">Bachelor of Science in Information Technology.</h4>
-                    <p class="text-gray-600 mt-2">2020-2024</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <img src="assets/images/lccm-logo.png" alt="La Consolacion College Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">La Consolacion College Manila</h3>
-                    <h4 class="font-medium">Information, Communication and Technology - TECHVOC Strand</h4>
-                    <p class="text-gray-600 mt-2">2018-2020</p>
-                </div>
+                <a href="https://earist.edu.ph" target="_blank">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <img src="assets/images/earist-logo.png" alt="EARIST Logo" class="mx-auto h-16 mb-4" />
+                        <h3 class="text-xl font-medium text-blue-600">Eulogio "Amang" Rodriguez Institute of Science and Technology Manila</h3>
+                        <h4 class="font-medium">Bachelor of Science in Information Technology.</h4>
+                        <p class="text-gray-600 mt-2">2020-2024</p>
+                    </div>
+                </a>
+
+                <a href="https://lccm.edu.ph" target="_blank">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <img src="assets/images/lccm-logo.png" alt="La Consolacion College Logo" class="mx-auto h-16 mb-4" />
+                        <h3 class="text-xl font-medium text-blue-600">La Consolacion College Manila</h3>
+                        <h4 class="font-medium">Information, Communication and Technology - TECHVOC Strand</h4>
+                        <p class="text-gray-600 mt-2">2018-2020</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -165,18 +170,22 @@
             <h2 class="text-3xl font-semibold text-gray-800">Experience</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Experience Card -->
+                <a href="https://www.fastretailing.com/employment/en/uniqlo/ph/business.html" target="_blank">
                 <div class="bg-white p-6 rounded-lg shadow-md ">
                     <img src="assets/images/fast-retailing-logo.png" alt="Fast Retailing Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">Fast Retailing Co., LTD - Uniqlo</h3>
                     <h4 class="font-medium">Seasonal Store Associate</h4>
                     <p class="text-gray-600 mt-2">2024</p>
                 </div>
+                </a>
+                <a href="https://www.philhealth.gov.ph/" target="_blank">
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/images/philhealth-logo.png" alt="Philhealth Logo" class="mx-auto h-16 mb-4" />
                     <h3 class="text-xl font-medium text-blue-600">PhilHealth Regional Office NCR - Central</h3>
                     <h4 class="font-medium">Internship</h4>
                     <p class="text-gray-600 mt-2">2024</p>
                 </div>
+                </a>
             </div>
         </div>
     </section>
