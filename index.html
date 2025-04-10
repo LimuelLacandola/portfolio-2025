@@ -13,17 +13,49 @@
     <!-- <link rel="stylesheet" href="src/fontawesome/css/sharp-thin.css" />
     <link rel="stylesheet" href="src/fontawesome/css/duotone-thin.css" />
     <link rel="stylesheet" href="src/fontawesome/css/sharp-duotone-thin.css" /> -->
-
     <link rel="stylesheet" href="src/main.css">
     <link rel="icon" href="assets/images/profile-icon.png">
+    <script src="/src/js/script.js"></script>
+    <script src="/src/js/particles.min.js"></script>
+    
+
 </head>
 
 <body class="bg-gray-100 text-gray-900">
+
+
+
+<!-- Hero Section -->
+<header id="top" class="flex flex-col items-center justify-center h-screen bg-white shadow-md px-6 text-center relative">
+    <!-- Particles Background -->
+    <!-- <div id="particles-js" class="absolute top-0 left-0 w-full h-full z-0"></div> -->
+
+    <!-- Profile Image -->
+    <a href="https://web.facebook.com/lmyylx?_rdc=1&_rdr" target="_blank">
+        <img src="assets/images/profile.jpg" alt="Profile Image" class="w-40 h-40 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full shadow-md border-4 border-black-600 hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-105 z-10">
+    </a>
+
+    <h1 class="mt-6 text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black-600 z-10">Hello, I'm Limuel Lacandola!</h1>
+    <p class="mt-2 text-lg text-gray-700 z-10">A fresh graduate student developer passionate about developing modern web and mobile experiences.</p>
+
+    <div class="mt-6 flex gap-4 z-10">
+        <a href="https://github.com/LimuelLacandola" target="_blank" 
+        class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-black text-white font-medium rounded-lg shadow-md hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-105">
+        <i class="fa-brands fa-github px-2 animate-pulse"></i> View Projects
+     </a>
+
+     <a href="assets/files/LACANDOLA, LIMUEL_CV.pdf" download
+        class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-black text-white font-medium rounded-lg shadow-md hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-105">
+        <i class="fa-solid fa-download px-2 animate-bounce"></i> Download CV
+     </a>
+    </div>
+</header>
+
     <!-- Sidebar (Hidden on Mobile, Centered on Larger Screens) -->
-    <div class="fixed top-0 left-0 w-20 h-screen bg-white text-gray-900 shadow-md hidden md:flex flex-col justify-center items-center">
+    <div class="fixed top-0 left-0 w-20 h-screen bg-transparent text-gray-900 hidden md:flex flex-col justify-center items-center">
         <ul class="space-y-6 list-none">
             <li class="group relative">
-                <a href="#top" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full">
+                <a href="#top" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
                     <i class="fa-solid fa-user text-xl"></i>
                 </a>
                 <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
@@ -31,7 +63,15 @@
                 </span>
             </li>
             <li class="group relative">
-                <a href="#projects" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full">
+                <a href="#skills" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
+                    <i class="fa-solid fa-cog text-xl"></i>
+                </a>
+                <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
+                    Skills  
+                </span>
+            </li>
+            <li class="group relative">
+                <a href="#projects" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
                     <i class="fa-solid fa-code text-xl"></i>
                 </a>
                 <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
@@ -39,7 +79,7 @@
                 </span>
             </li>
             <li class="group relative">
-                <a href="#education" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full">
+                <a href="#education" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
                     <i class="fa-solid fa-graduation-cap text-xl"></i>
                 </a>
                 <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
@@ -47,7 +87,7 @@
                 </span>
             </li>
             <li class="group relative">
-                <a href="#experience" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full">
+                <a href="#experience" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
                     <i class="fa-solid fa-briefcase text-xl"></i>
                 </a>
                 <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
@@ -55,7 +95,7 @@
                 </span>
             </li>
             <li class="group relative">
-                <a href="#contact" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full">
+                <a href="#contact" class="flex items-center justify-center w-12 h-12 hover:bg-gray-200 rounded-full transition-all duration-300 ease-in-out transform hover:scale-120">
                     <i class="fa-solid fa-envelope text-xl"></i>
                 </a>
                 <span class="absolute left-16 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md transition-opacity duration-200">
@@ -65,33 +105,6 @@
         </ul>
     </div>
 
-
-
-    <!-- Hero Section -->
-    <header id="top" class="flex flex-col items-center justify-center h-screen bg-white shadow-md px-6 text-center">
-        <!-- Profile Image -->
-        <img src="assets/images/profile.jpg" alt="Profile Image" class="w-40 h-40 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full shadow-md border-4 border-blue-600">
-
-
-        <h1 class="mt-6 text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-600">Hello, I'm Limuel Lacandola!</h1>
-        <p class="mt-2 text-lg text-gray-700">A fresh graduate student developer passionate about developing modern web and mobile experiences.</p>
-
-        <div class="mt-6 flex gap-4">
-            <a href="https://github.com/LimuelLacandola" target="_blank" 
-            class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-            <i class="fa-brands fa-github px-2"></i> View Projects
-         </a>
-         
-         <a href="assets/files/LACANDOLA, LIMUEL_CV.pdf" download
-            class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-            <i class="fa-solid fa-download px-2"></i> Download CV
-         </a>
-         
-         
-        </div>
-
-        </div>
-    </header>
 
 
     <!-- About Section -->
@@ -105,33 +118,94 @@
         </div>
     </section>
 
+<!-- Skills Section -->
+<section id="skills" class="min-h-screen flex items-center justify-center px-6 text-center">
+    <div class="max-w-5xl w-full">
+        <h2 class="text-4xl font-semibold text-gray-800 mb-8">Skills</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 text-lg text-gray-600">
+            <!-- Skill Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-laptop-code text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">Software Development</h3>
+                <p class="text-gray-600">Building robust and scalable web applications and software solutions.</p>
+            </div>
+            <!-- Skill Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-file-alt text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">MS Office</h3>
+                <p class="text-gray-600">Proficient in Word, Excel, PowerPoint for documentation, analysis, and presentations.</p>
+            </div>
+            <!-- Skill Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-users text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">Leadership</h3>
+                <p class="text-gray-600">Leading teams towards achieving common goals through guidance and motivation.</p>
+            </div>
+            <!-- Skill Card 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-wrench text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">Problem Solving</h3>
+                <p class="text-gray-600">Identifying problems and implementing solutions effectively and efficiently.</p>
+            </div>
+            <!-- Skill Card 5 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-plug text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">Digital Skills</h3>
+                <p class="text-gray-600">Mastering digital tools and platforms to enhance productivity and creativity.</p>
+            </div>
+            <!-- Skill Card 6 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-eye text-4xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-medium text-black mb-2">Attention to Detail</h3>
+                <p class="text-gray-600">Ensuring accuracy and precision in all tasks, from coding to documentation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
     <!-- Projects Section -->
-    <section id="projects" class="min-h-screen flex items-center justify-center px-6">
+    <section id="projects" class="min-h-screen flex items-center justify-center bg-gray-50 px-6">
         <div class="max-w-5xl text-center">
             <h2 class="text-3xl font-semibold text-gray-800">Projects</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 <!-- Project Card -->
-                <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/trip-ticket', '_blank');">
                     <img src="assets/images/trip-ticket-logo.png" alt="Trip Ticket Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">Philhealth Trip Ticketing</h3>
+                    <h3 class="text-xl font-medium text-black">Philhealth Trip Ticketing</h3>
                     <p class="text-gray-600 mt-2">An automated ticketing web system for the trip permit for the vehicles.</p>
                     <!-- <p class="mt-2">2024</p> -->
                 </div>
 
-                <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/HealthPro', '_blank');">
                     <img src="assets/images/healthpro-logo.png" alt="HealthPro Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">Health Pro</h3>
+                    <h3 class="text-xl font-medium text-black">Health Pro</h3>
                     <p class="text-gray-600 mt-2">An Health companion and monitoring mobile application.</p>
                     <!-- <p class="mt-2">2023</p> -->
 
                 </div>
 
-                <div class="bg-white p-6 rounded-lg shadow-md cursor-pointer"
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
                     onclick="window.open('https://github.com/LimuelLacandola/San-and-Elisse-Bending-Shop-System', '_blank');">
                     <img src="assets/images/saebs-logo.png" alt="Bending Shop Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">San and Elisse Bending Shop</h3>
+                    <h3 class="text-xl font-medium text-black">San and Elisse Bending Shop</h3>
                     <p class="text-gray-600 mt-2">An integrated inventory management system for a bending shop.</p>
                     <!-- <p class="mt-2">2024-2025</p> -->
                 </div>
@@ -141,24 +215,24 @@
 
 
     <!-- Education Section -->
-    <section id="education" class="min-h-screen flex items-center justify-center px-6 bg-gray-50">
+    <section id="education" class="min-h-screen flex items-center justify-center px-6">
         <div class="max-w-5xl mx-auto text-center">
             <h2 class="text-3xl font-semibold text-gray-800">Education</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Education Card -->
                 <a href="https://earist.edu.ph" target="_blank">
-                    <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
                         <img src="assets/images/earist-logo.png" alt="EARIST Logo" class="mx-auto h-16 mb-4" />
-                        <h3 class="text-xl font-medium text-blue-600">Eulogio "Amang" Rodriguez Institute of Science and Technology Manila</h3>
+                        <h3 class="text-xl font-medium text-black">Eulogio "Amang" Rodriguez Institute of Science and Technology Manila</h3>
                         <h4 class="font-medium">Bachelor of Science in Information Technology.</h4>
                         <p class="text-gray-600 mt-2">2020-2024</p>
                     </div>
                 </a>
 
                 <a href="https://lccm.edu.ph" target="_blank">
-                    <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
                         <img src="assets/images/lccm-logo.png" alt="La Consolacion College Logo" class="mx-auto h-16 mb-4" />
-                        <h3 class="text-xl font-medium text-blue-600">La Consolacion College Manila</h3>
+                        <h3 class="text-xl font-medium text-black">La Consolacion College Manila</h3>
                         <h4 class="font-medium">Information, Communication and Technology - TECHVOC Strand</h4>
                         <p class="text-gray-600 mt-2">2018-2020</p>
                     </div>
@@ -169,23 +243,23 @@
 
 
     <!-- Experience Section -->
-    <section id="experience" class="min-h-screen flex items-center justify-center px-6">
+    <section id="experience" class="min-h-screen flex items-center justify-center bg-gray-50 px-6">
         <div class="max-w-5xl mx-auto text-center">
             <h2 class="text-3xl font-semibold text-gray-800">Experience</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <!-- Experience Card -->
                 <a href="https://www.fastretailing.com/employment/en/uniqlo/ph/business.html" target="_blank">
-                <div class="bg-white p-6 rounded-lg shadow-md ">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
                     <img src="assets/images/fast-retailing-logo.png" alt="Fast Retailing Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">Fast Retailing Co., LTD - Uniqlo</h3>
+                    <h3 class="text-xl font-medium text-black">Fast Retailing Co., LTD - Uniqlo</h3>
                     <h4 class="font-medium">Seasonal Store Associate</h4>
                     <p class="text-gray-600 mt-2">2024</p>
                 </div>
                 </a>
                 <a href="https://www.philhealth.gov.ph/" target="_blank">
-                <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
                     <img src="assets/images/philhealth-logo.png" alt="Philhealth Logo" class="mx-auto h-16 mb-4" />
-                    <h3 class="text-xl font-medium text-blue-600">PhilHealth Regional Office NCR - Central</h3>
+                    <h3 class="text-xl font-medium text-black">PhilHealth Regional Office NCR - Central</h3>
                     <h4 class="font-medium">Internship</h4>
                     <p class="text-gray-600 mt-2">2024</p>
                 </div>
@@ -195,14 +269,14 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="py-20 bg-gray-50 min-h-screen flex items-center justify-center px-6" id="contact">
+    <section class="py-20 min-h-screen flex items-center justify-center px-6" id="contact">
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="text-3xl font-semibold text-gray-800">Let's Connect</h2>
             <p class="mt-4 text-gray-600">Feel free to reach out for collaborations or just to say hi!</p>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lacandola.l.bsinfotech@gmail.com&su=Collaboration Inquiry&body=Hello, I’d love to discuss..."
                 target="_blank"
-                class="mt-4 inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-                <i class="fa-solid fa-paper-plane text-xl"></i>
+                class="mt-4 inline-block px-6 py-3 bg-black text-white font-medium rounded-lg shadow-md hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-105 ">
+                <i class="fa-solid fa-paper-plane text-xl animate-pulse"></i>
                 Send Mail
             </a>
             <!-- <div class="mt-6 flex justify-center space-x-6text-2xl text-gray-600">
@@ -223,11 +297,12 @@
 
 
     <!-- Footer -->
-    <footer class="py-4 bg-white text-center text-gray-600">
-        <p><i class="fa-solid fa-code px-2"></i>Limuel Lacandola</p>
+    <footer class="py-4 bg-white text-center text-gray-600 bg-gray-50">
+        <p><i class="fa-solid fa-code px-2 animate-pulse"></i>Limuel Lacandola</p>
 
     </footer>
 
+    
 </body>
 
 

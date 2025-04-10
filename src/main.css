@@ -14,3 +14,22 @@ body, html {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+/* .typing {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 3s steps(40) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    100% { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+   */
+   
