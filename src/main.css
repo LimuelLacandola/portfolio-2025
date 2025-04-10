@@ -4,6 +4,13 @@
     }
 }
 
-html {
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+
+    padding: 0;
     scroll-behavior: smooth;
 }

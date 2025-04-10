@@ -18,7 +18,7 @@
     <link rel="icon" href="assets/images/profile-icon.png">
 </head>
 
-<body class="bg-gray-100 text-gray-900 ml-20">
+<body class="bg-gray-100 text-gray-900">
     <!-- Sidebar (Hidden on Mobile, Centered on Larger Screens) -->
     <div class="fixed top-0 left-0 w-20 h-screen bg-white text-gray-900 shadow-md hidden md:flex flex-col justify-center items-center">
         <ul class="space-y-6 list-none">
@@ -70,20 +70,24 @@
     <!-- Hero Section -->
     <header id="top" class="flex flex-col items-center justify-center h-screen bg-white shadow-md px-6 text-center">
         <!-- Profile Image -->
-        <img src="assets/images/profile.jpg" alt="Profile Image"
-            class="w-40 h-40 rounded-full shadow-md border-4 border-blue-600">
+        <img src="assets/images/profile.jpg" alt="Profile Image" class="w-40 h-40 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full shadow-md border-4 border-blue-600">
 
-        <h1 class="mt-6 text-4xl font-bold text-blue-600">Hello, I'm Limuel Lacandola!</h1>
+
+        <h1 class="mt-6 text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-600">Hello, I'm Limuel Lacandola!</h1>
         <p class="mt-2 text-lg text-gray-700">A fresh graduate student developer passionate about developing modern web and mobile experiences.</p>
 
         <div class="mt-6 flex gap-4">
-            <a href="https://github.com/LimuelLacandola" target="_blank" class="inline-flex items-center justify-center px-6 py-3 w-48 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-                <i class="fa-brands fa-github px-2"></i> View Projects
-            </a>
-            <a href="assets/files/LACANDOLA, LIMUEL_CV.pdf" download class="inline-flex items-center justify-center px-6 py-3 w-48 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-
-                <i class="fa-solid fa-download px-2"></i>Download CV
-            </a>
+            <a href="https://github.com/LimuelLacandola" target="_blank" 
+            class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
+            <i class="fa-brands fa-github px-2"></i> View Projects
+         </a>
+         
+         <a href="assets/files/LACANDOLA, LIMUEL_CV.pdf" download
+            class="inline-flex items-center justify-center px-6 py-3 sm:w-36 sm:text-sm sm:py-2 md:w-48 md:text-lg md:py-3 lg:w-64 lg:text-xl lg:py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
+            <i class="fa-solid fa-download px-2"></i> Download CV
+         </a>
+         
+         
         </div>
 
         </div>
